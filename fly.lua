@@ -2,7 +2,7 @@ local flight
 local plr = game.Players.LocalPlayer
 IYMouse = plr:GetMouse()
 IYMouse.KeyDown:connect(function(key)
-    if key == "y" then
+    if key == "x" then
         if flight then
             flight = false
             fly()
