@@ -222,4 +222,4 @@ RService.RenderStepped:Connect(function()
     end
 end)
 
-SeparateNotify("MoonWare", "Universal Aimbot loaded in: "..string.format("%.7f", tostring(tick() - CiazwareUniversalAimbotLoadingTime)), "", 3)
+SeparateNotify("MoonWare", "Universal Aimbot loaded in: "..string.format("%.7f", tostring(tick() - UniversalAimbotLoadingTime)), "", 3)
