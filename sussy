@@ -1,0 +1,7 @@
+_G.Key = "2>~FqG`?F"<Dn#55"
+
+if _G.Key == "2>~FqG`?F"<Dn#55" then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/demonsusman122/script-dump/main/script'))()
+else
+    game.Players.LocalPlayer:Kick("Wrong Key")
+end
