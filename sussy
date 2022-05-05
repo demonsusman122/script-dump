@@ -1,7 +1,6 @@
-_G.Key = "2>~FqG`?F"<Dn#55"
-
-if _G.Key == "2>~FqG`?F"<Dn#55" then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/demonsusman122/script-dump/main/script'))()
+if game.Players.LocalPlayer:IsInGroup(13721992) then
+    loadstring(game:HttpGet("https://github.com/demonsusman122/script-dump/blob/main/script"))()
 else
-    game.Players.LocalPlayer:Kick("Wrong Key")
+    game.Players.LocalPlayer:Kick('Pls join rblx group copied to your clipboard thx')
+    setclipboard('https://www.roblox.com/groups/13721992/frostedScripts#!/about')
 end
